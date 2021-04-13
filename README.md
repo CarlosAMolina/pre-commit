@@ -18,9 +18,11 @@ pre-commit --version
 
 ### Configuration
 
-Copy the .pre-commit-config.yaml file to the root path of your project.
+Copy the following files to the root path of your project:
 
-This file contains the hooks to apply to the project's files. Hook example: the Black library.
+- .pre-commit-config.yaml. File with the hooks to apply to the project's files. Hook example: the Black library.
+- pyproject.toml. A configuration file for the Black library.
+
 
 ### Install the git hook scripts
 
