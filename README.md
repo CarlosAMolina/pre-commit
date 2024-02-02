@@ -44,6 +44,14 @@ pre-commit install
 
 Each time we run the `git commit` command, pre-commit will apply the hook scripts to all files we have added to the commit. If pre-commit modifies any file, the commit won't be applied and we have to add the files again and run the `git commit` command.
 
+### Commit without pre-commit
+
+To create a commit without the pre-commit checks you can run:
+
+```bash
+git commit -nm "Commit text"
+```
+
 
 ## Resources
 
