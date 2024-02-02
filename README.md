@@ -7,7 +7,7 @@ Basic pre-commit usage.
 Root permissions are not required:
 
 ```bash
-pip install pre-commit
+pip install -r requirements-dev.txt
 ```
 
 Verify the installation:
