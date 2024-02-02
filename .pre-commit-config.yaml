@@ -23,5 +23,6 @@ repos:
         entry: python -m unittest
         language: system
         pass_filenames: false
+        verbose: true
         args: ["discover", "-s", "tests"]
 
