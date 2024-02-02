@@ -20,8 +20,16 @@ pre-commit --version
 
 Copy the following files to the root path of your project:
 
-- .pre-commit-config.yaml. File with the hooks to apply to the project's files. Hook example: the Black library.
-- pyproject.toml. A configuration file for the Black library.
+- `.flake8`. A configuration file for the Flake8 library.
+- `.pre-commit-config.yaml`. File with the hooks to apply to the project's files. Hook example: the Black library.
+- `pyproject.toml`. A configuration file for the Black library.
+
+#### Max line length
+
+Files to modify:
+
+- `.flake8`
+- `pyproject.toml`
 
 
 ### Install the git hook scripts
