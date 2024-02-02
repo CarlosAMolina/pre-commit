@@ -52,6 +52,9 @@ To create a commit without the pre-commit checks you can run:
 git commit -nm "Commit text"
 ```
 
+## Strange situations
+
+- I can't test with pre-commit a file called main.py.
 
 ## Resources
 

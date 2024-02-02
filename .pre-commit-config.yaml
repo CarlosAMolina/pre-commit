@@ -1,5 +1,8 @@
 # See https://pre-commit.com for more information
 # See https://pre-commit.com/hooks.html for more hooks
+# Tests:
+# - https://stackoverflow.com/questions/59358182/python-pre-commit-unittest-faild
+# - https://pre-commit.com/#creating-new-hooks
 repos:
 -   repo: https://github.com/pre-commit/pre-commit-hooks
     rev: v4.5.0
@@ -20,5 +23,5 @@ repos:
         entry: python -m unittest
         language: system
         pass_filenames: false
-        args: ["discover"]
+        args: ["discover", "-s", "tests"]
 
