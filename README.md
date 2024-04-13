@@ -52,6 +52,14 @@ To create a commit without the pre-commit checks you can run:
 git commit -nm "Commit text"
 ```
 
+### Run specific hook
+
+For example, to run the hook with id `unittests`:
+
+```bash
+pre-commit run unittests --all-files
+```
+
 ## Strange situations
 
 - I can't test with pre-commit a file called main.py.
